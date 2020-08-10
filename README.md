@@ -20,6 +20,6 @@ Create an issue ticket, I can't guarantee I can always help you though because I
 
 
 **How to Setup**
-Firstly, setup MySQL - visit the MySQL page here.
+READ THE WIKI PAGES
 
 **FULL CREDIT GOES TO Anson the Developer**
