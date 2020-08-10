@@ -1,0 +1,1 @@
+IGNORE THIS :)            client.users.cache.get(owner).send('Bot is online and connected to the Database.');
