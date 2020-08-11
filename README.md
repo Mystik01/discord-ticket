@@ -1,5 +1,3 @@
-# Discord Ticket Bot
-
 This custom ticket bt is made using MySQL, this is based on **[Anson the Developer's](https://www.youtube.com/c/AnsonDevAcademy/)** 
 **[ Discord.JS v12 Ticket Bot [FULL TUTORIAL]](https://www.youtube.com/watch?v=KctjPfO5LxU)** video. 
 
