@@ -1,0 +1,124 @@
+/**************************************
+    Template Name: Micrology
+    Created By: HTML.Design
+    https://html.design
+**************************************/
+
+/*************** GRADIENT 01 (RED & ORANGE) ***************/
+
+.grd1 {
+	background: rgb(255,174,25); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,174,25,0.93) 0%, rgba(247,122,12,0.93) 51%, rgba(252,44,25,0.93) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,174,25,0.93) 0%,rgba(247,122,12,0.93) 51%,rgba(252,44,25,0.93) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,174,25,0.93) 0%,rgba(247,122,12,0.93) 51%,rgba(252,44,25,0.93) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffae19', endColorstr='#fc2c19',GradientType=0 ); /* IE6-9 */
+}
+
+/*************** GRADIENT 02 (PURPLE & NAVY) ***************/
+
+.grd2 {
+    background: rgb(135,224,253); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(209,0,207,0.9) 0%,rgba(123,0,209,0.9) 40%,rgba(15,0,209,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+}
+
+/*************** GRADIENT 03 (BLACK & DARK BLUE) ***************/
+
+.grd3 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#090c1e+0,000000+100 */
+  background: rgb(9,12,30); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(9,12,30,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(9,12,30,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(9,12,30,0.9) 0%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#090c1e', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.grd4 {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f32e59, #6338dd) repeat scroll 0 0;
+}
+.grd5 {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #9600ff, #002ef2) repeat scroll 0 0;
+}
+.grd6 {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #d500a0, #0082d5) repeat scroll 0 0;
+}
+
+.grd7 {
+background: #f32e59; /* Old browsers */
+background: -moz-linear-gradient(right, #fa3d66 0%, #f32e59 50%, #6338dd 50%, #7349eb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(right, #fa3d66 0%,#f32e59 50%,#6338dd 50%,#7349eb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fa3d66 0%,#f32e59 50%,#6338dd 50%,#7349eb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32e59', endColorstr='#6338dd',GradientType=1 ); /* IE6-9 */
+}
+
+/*************** PURPLE ***************/
+
+.footer.lb h4 i,
+.service-style-04 a,
+.service-style-04 i,
+.service-style-03 i {
+  color:#f32e59 !important;
+}
+
+.section-title.cpurple h4 {
+  border-bottom-color: #f32e59;
+} 
+
+
+/*************** ORANGE ***************/
+
+a,
+.fa-star,
+.service-desc-01:hover i,
+.service-box:hover h4,
+.navbar-brand:hover i,
+.yamm-fw li a:before,
+.btn.withicon:hover i,
+.btn.withicon:focus i {
+    color:#ffae19;
+}
+
+.btn-orange {
+    background-color: #ffae19 !important;
+}
+.section-title h4 {
+    border-bottom-color: #ffae19;
+}
+
+.hero mark,
+.btn-primary:hover,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary.disabled, .btn-primary:disabled,
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #ffae19;
+  border-color: #ffae19;
+}
+
+/*************** DARK BLUE ***************/
+
+
+.playbutton:hover i,
+.playbutton:focus i,
+div.sidewrapper.sidenav,
+.owl-style-01 .owl-nav [class*="owl-"]:hover,
+.owl-style-02 .owl-nav [class*="owl-"]:hover,
+.btn-orange:hover,
+.btn-orange:focus, .btn-orange.focus,
+.btn-orange.disabled, .btn-orange:disabled,
+.btn-orange:active, .btn-orange.active,
+.show > .btn-orange.dropdown-toggle  {
+  color:#ffffff;
+    background-color: #090c1e !important;
+    border-color: #090c1e !important;
+}
+
+.menu-image .btn,
+.btn-primary,
+.section.db,
+.footer {
+    background-color: #090c1e;
+}
