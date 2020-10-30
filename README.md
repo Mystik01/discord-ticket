@@ -15,7 +15,7 @@ The setup to this is a little bit complicated if you are not used to making or s
 
 **Support**
 If you need help, join this Discord server:
-[https://discord.gg/vc7KDU7](https://discord.gg/vc7KDU7)
+[https://discord.gg/d9Au6uf3Px](https://discord.gg/d9Au6uf3Px)
 Or...
 Create an issue ticket, I can't guarantee I can always help you though because I'm not a very adavnced developer yet (I'm still learning).
 
