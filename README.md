@@ -19,7 +19,11 @@ If you need help, join this Discord server:
 Or...
 Create an issue ticket, I can't guarantee I can always help you though because I'm not a very adavnced developer yet (I'm still learning).
 
+**HOW TO SETUP MYSQL**
+To setup the Mysql database, copy and paste the ``example.env`` file and re-name it to just ``.env``. then you can delete the ``example.env``. 
+After just edit the ``.env`` file to your configurations. 
 
+Watch this video to setup MySQL on your pc: https://www.youtube.com/watch?v=VAC_gmQZ_ws
 
 **How to Setup**
 READ THE WIKI PAGES
