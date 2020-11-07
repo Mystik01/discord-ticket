@@ -29,3 +29,6 @@ Watch this video to setup MySQL on your pc: https://www.youtube.com/watch?v=VAC_
 READ THE WIKI PAGES
 
 **FULL CREDIT GOES TO Anson the Developer**
+
+I'm not going to provide support on this, you can try contact me but this is just a fun project. I'm not going to develop it. 
+May release my updated one in furture...
