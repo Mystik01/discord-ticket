@@ -32,3 +32,7 @@ READ THE WIKI PAGES
 
 I'm not going to provide support on this, you can try contact me but this is just a fun project. I'm not going to develop it. 
 May release my updated one in furture...
+
+
+I have also made a new Modmail bot which does not require a database!
+Just visit this respiratory: https://GitHub.com/mystik01/ModMail
