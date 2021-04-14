@@ -1,5 +1,6 @@
 require('dotenv').config();
-const { Client, CategoryChannel, MessageEmbed, Discord } = require('discord.js')
+const Discord = require('discord.js')
+const { Client, MessageEmbed } = require('discord.js');
 const client = new Client({ partials: ['MESSAGE', 'REACTION']});
 const db = require ('./database');
 const Ticket = require('./models/Ticket');
@@ -102,19 +103,9 @@ client.on('messageReactionAdd', async (reaction, user, channel, message) => {
                             ...permissions
                         ]
                     });
-                    const CategoryEmbed = new MessageEmbed() //this is an embed 
-                    .setTitle('**Please categorize your issue with one of the options below:**')
-                    .setDescription('1️⃣ **Report a player** - Report a player for griefing.\n\n2️⃣ **Tournament Help** - If you need help signing up to a tournament or have any questions, select this.\n\n3️⃣ **Speak to a moderator** - If you need to speak to our staff about another issue which is not listed here, select this.') //you can customize this message
-                    .setFooter('some footer')
-                    .setAuthor('soe author', 'https://some_profile_pic.com/picture.png')
-                    .setColor('#f1db30')
                     const msg = await channel.send('Please explain a brief description about your query below, our staff will get back to you as soon as possible. \nReact below to close this ticket.');
                     await msg.react('🔒'); //when a user reacts to this it will close this ticket
                     msg.pin();
-                    const CategoryMSG = await channel.send('__**Please categorize your issue with one of the options below:**__\n1️⃣ **Report a player** - Report a player for griefing.\n\n2️⃣ **Tournament Help** - If you need help signing up to a tournament or have any questions, select this.\n\n3️⃣ **Speak to a moderator** - If you need to speak to our staff about another issue which is not listed here, select this.') //you can customize this too
-                    await CategoryMSG.react('1️⃣'),
-                    await CategoryMSG.react('2️⃣'),
-                    await CategoryMSG.react('3️⃣');
                     
 
                     const ticket = await Ticket.create({
@@ -152,13 +143,7 @@ client.on('messageReactionAdd', async (reaction, user, channel, message) => {
             }
 
         }
-    }; if (reaction.emoji.name === '1️⃣') { //this is random stuff so ignore it, it doesnt work
-        await message.channel.send('You have selected **Report a Player**, our staff have been notified and will be here to assist you shortly.');
-        } if (reaction.emoji.name === '2️⃣') {
-                await message.channel.send('You have selected **Tournament Help**, our staff have been notified and will assist you shortly.');
-                } if (reaction.emoji.name === '3️⃣') {
-                   await message.channel.send('You have selected **Speak to a Moderator**, our staff have been notified and will assist you shortly.');
-                }
+    };
 
 });
 
