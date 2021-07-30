@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.2.0",
+    "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.0",
