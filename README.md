@@ -1,6 +1,8 @@
 This bot is written in Discord JS v12, NOT Version 13.
 Run `npm ci` for same versions I used or `npm install discord.js@12`.
 
+Personally I no longer use this bot simply because I don't have the time to maintain it/update. 
+I reccomend https://github.com/kyb3r/modmail, it's much easier to setup and has a lot more features compared to this like viewing transscripts online.
 
 
 
