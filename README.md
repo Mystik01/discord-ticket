@@ -1,3 +1,9 @@
+This bot is written in Discord JS v12, NOT Version 13.
+
+
+
+
+
 # Discord Ticket Bot
 
 This custom ticket bt is made using MySQL, this is based on **[Anson the Developer's](https://www.youtube.com/c/AnsonDevAcademy/)** 
