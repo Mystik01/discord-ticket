@@ -1,4 +1,5 @@
 This bot is written in Discord JS v12, NOT Version 13.
+Run `npm ci` for same versions I used or `npm install discord.js@12`.
 
 
 
@@ -40,5 +41,3 @@ I'm not going to provide support on this, you can try contact me but this is jus
 May release my updated one in furture...
 
 
-I have also made a new Modmail bot which does not require a database!
-Just visit this respiratory: https://GitHub.com/mystik01/ModMail
